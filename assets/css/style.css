@@ -1,9 +1,29 @@
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    
+    font-size: x-large;
 }
 
 p {
     font-family: 'Lato', sans-serif;
+}
+
+/*------------------------------- Colors */
+
+.bg-black-xbox {
+    background-color: #222831;
+}
+
+.bg-green-xbox {
+    background-color: #00b906;
+}
+
+/*------------------------------- Navbar */
+
+li .nav-link {
+    color: #00b906;
+}
+
+.navbar-brand {
+    color: #00b906;
 }
