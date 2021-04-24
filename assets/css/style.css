@@ -1,11 +1,16 @@
+/*------------------------------- HTML and Body Standart */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #393e46;
+}
+
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    font-size: x-large;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
 }
 
 /*------------------------------- Colors */
@@ -14,20 +19,30 @@ p {
     background-color: #222831;
 }
 
-.bg-green-xbox {
-    background-color: #00b906;
+.ui-green-xbox {
+    color: #00b906;
 }
 
 /*------------------------------- Navbar */
 
-li .nav-link {
+.navbar-custom-color {
+    background-color: #222831;
+}
+
+.navbar-custom-color li .nav-link, .navbar-brand {
     color: #00b906;
 }
 
 .navbar-brand {
-    color: #00b906;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bolder;
 }
 
-/* body {
-    background-color:#222831;
-} */
+.navbar-toggler {
+    border-color: #00b906;
+}
+
+.custom-fa-bars{
+    color: #00b906;
+    font-size: 25px;
+}
