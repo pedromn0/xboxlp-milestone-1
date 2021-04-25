@@ -24,15 +24,13 @@ h1 {
 }
 
 /*------------------------------- Navbar */
-
-.navbar-custom-color li .nav-link, .navbar-brand {
-    color: #00b906;
+.bg-navbar-color {
     background-color: #222831;
 }
 
-/* .navbar-custom-size {
-    margin-bottom: 3%;
-} */
+li a, .navbar-brand {
+    color: #00b906;
+}
 
 .navbar-brand {
     font-family: 'Open sans', sans-serif;
