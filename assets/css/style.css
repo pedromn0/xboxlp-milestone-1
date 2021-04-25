@@ -6,6 +6,7 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     background: #393e46;
+    padding-top: 52px;
 }
 
 h1 {
@@ -28,7 +29,7 @@ h1 {
     background-color: #222831;
 }
 
-li a, .navbar-brand {
+li .nav-link, .navbar-brand {
     color: #00b906;
 }
 
@@ -46,5 +47,8 @@ li a, .navbar-brand {
     font-size: 25px;
 }
 
-/*------------------------------- Carousel */
+.position-relative {
+    position: relative;
+}
 
+/*------------------------------- Carousel */
