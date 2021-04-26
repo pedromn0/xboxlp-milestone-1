@@ -7,11 +7,19 @@ body {
     font-family: 'Lato', sans-serif;
     background: #393e46;
     padding-top: 56px;
+    color: #fff;
 }
 
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
+    color: #fff;
+}
+
+/*------------------------------- General Settings */
+
+.section-column {
+    display: table-cell;
 }
 
 /*------------------------------- Colors */
@@ -52,3 +60,10 @@ li .nav-link, .navbar-brand {
 }
 
 /*------------------------------- Carousel */
+/* .custom-fade {
+    background-color: rgba(171, 187, 25, 0.692);
+    width: 100%;
+    height: 250px;
+    position: relative;
+    z-index: 2;
+} */
