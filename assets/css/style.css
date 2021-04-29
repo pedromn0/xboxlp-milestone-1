@@ -74,19 +74,29 @@ li .nav-link, .navbar-brand {
     padding-top: 2rem;
 }
 
-.card-title {
+.card-title-h2 {
     display: flex;
     justify-content: center;
-     font-size: xx-large;
+    font-size: xx-large;
 }
 
-.card-header {
+.card-title-h3 {
+    padding-bottom: 1.5rem;
+}
+
+.title-position {
     padding-bottom: 25px;
     background-color: #fff;
     border: 0;
 }
 
-.card-columns {
+.card-padding {
     padding: 5px;
     margin-bottom: 20px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.tech-highlights p {
+    margin-right: 0;
 }
