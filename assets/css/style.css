@@ -23,6 +23,21 @@ h2 {
     font-weight: bolder;
 }
 
+/*------------------------------- Divisions */
+
+.divison {
+    border: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 80px;
+    height: 10px;
+}
+
+hr {
+    box-sizing: content-box;
+    overflow: visible;
+}
+
 /*------------------------------- Colors */
 
 .bg-black-xbox {
@@ -31,6 +46,22 @@ h2 {
 
 .ui-green-xbox {
     color: #00b906;
+}
+
+.ui-lgblue-x-button {
+    color: #0ba3e9;
+}
+
+.ui-lgyellow-y-button {
+    color: #ded520;
+}
+
+.ui-red-b-button {
+    color: #e05351;
+}
+
+.ui-gree-a-button {
+    color: #76c05e;
 }
 
 /*------------------------------- Navbar */
@@ -68,17 +99,13 @@ li .nav-link, .navbar-brand {
     background-color: #fff;
     border-top: 3px solid #00b906;
     border-bottom: 5px solid #00b906;
-    margin-right: 1rem auto;
-    margin-left: 1rem auto;
     box-shadow: 0 0 0 5px #00b906b2;
     padding-top: 2rem;
 }
 
 .card-title-h2 {
-    display: flex;
-    justify-content: center;
-    font-size: xx-large;
-}
+    text-align: center;
+}    
 
 .card-title-h3 {
     padding-bottom: 1.5rem;
@@ -86,17 +113,15 @@ li .nav-link, .navbar-brand {
 
 .title-position {
     padding-bottom: 25px;
-    background-color: #fff;
     border: 0;
 }
 
 .card-padding {
     padding: 5px;
     margin-bottom: 20px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
 }
 
 .tech-highlights p {
     margin-right: 0;
 }
+
