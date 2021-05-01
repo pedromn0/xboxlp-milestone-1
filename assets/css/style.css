@@ -7,7 +7,8 @@ body {
     font-family: 'Lato', sans-serif;
     background: #393e46;
     padding-top: 56px;
-    color: #222831;
+    /* color: #222831; */
+    color: #fff;
 }
 
 h1 {
@@ -96,11 +97,20 @@ li .nav-link, .navbar-brand {
 /*------------------------------- Tech Section */
 
 .bg-card-tech {
-    background-color: #fff;
-    border-top: 3px solid #0ba3e9;
-    border-bottom: 5px solid #0ba3e9;
-    box-shadow: 0 0 0 5px #0ba3e9bd;
-    padding-top: 2rem;
+    background-image: url(/assets/images/teach-feat-option2.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-top: 5px solid #064b6b;
+    border-bottom: 5px solid #064b6b;
+    box-shadow: 20px 20px 20px 20px #0ba3e9;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.bg-fade-cover {
+    object-fit: cover;
+    opacity: 0.95;
 }
 
 .card-title-h2 {
@@ -125,3 +135,6 @@ li .nav-link, .navbar-brand {
     padding-bottom: 0.5rem;
 }
 
+.tech-highlights {
+    padding-top: 40px;
+}
