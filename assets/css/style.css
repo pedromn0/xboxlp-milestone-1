@@ -97,9 +97,9 @@ li .nav-link, .navbar-brand {
 
 .bg-card-tech {
     background-color: #fff;
-    border-top: 3px solid #00b906;
-    border-bottom: 5px solid #00b906;
-    box-shadow: 0 0 0 5px #00b906b2;
+    border-top: 3px solid #0ba3e9;
+    border-bottom: 5px solid #0ba3e9;
+    box-shadow: 0 0 0 5px #0ba3e9bd;
     padding-top: 2rem;
 }
 
@@ -122,6 +122,6 @@ li .nav-link, .navbar-brand {
 }
 
 .tech-highlights p {
-    margin-right: 0;
+    padding-bottom: 0.5rem;
 }
 
