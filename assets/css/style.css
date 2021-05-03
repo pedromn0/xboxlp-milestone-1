@@ -174,3 +174,12 @@ li .nav-link, .navbar-brand {
     padding: 2px;
 }
 
+/*------------------------------- Games Section */
+
+.games-container {
+    -moz-box-shadow:    inset 0 0 10px #222831;
+    -webkit-box-shadow: inset 0 0 10px #222831;
+    box-shadow:         inset 0 0 10px #222831;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
