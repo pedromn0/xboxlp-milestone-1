@@ -183,3 +183,22 @@ li .nav-link, .navbar-brand {
     padding-top: 50px;
     padding-bottom: 200px;
 }
+
+/* Responsives CSS rules
+credit to https://www.youtube.com/watch?v=0L8cQ9nRtuE 
+but edited by myself for my own purpose */
+
+.video-responsive-wrapper {
+   overflow: hidden;
+   padding-bottom: 56.25%;
+   position: relative;
+   height: 0;
+}
+
+.video-responsive-wrapper iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
