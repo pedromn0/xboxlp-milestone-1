@@ -6,7 +6,6 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     /* background: #393e46; */
-    /* padding-top: 56px; */
     /* color: #222831; */
     color: #fff;
 }
@@ -64,6 +63,17 @@ li .nav-link, .navbar-brand {
     color: #00b906;
 }
 
+li .nav-link span {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
 /* Source of this code https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text/9913526
 Edited for my own purpose */
 
@@ -71,17 +81,43 @@ Edited for my own purpose */
     display: none;
 }
 
-.nav-link:hover .link-hide { 
+.nav-item:hover .link-hide { 
     display: none; 
 }
 
 .nav-link:hover .link-show-x {
     display: inline;
     color: #0ba3e9;
-    height: 10px;
-    border: 1px #0ba3e9;
-    border-radius: 50px; 
+    transition: 1s;
 }
+
+.nav-link .link-show-y {
+    display: none;
+}
+
+.nav-link:hover .link-show-y {
+    display: inline;
+    color: #ded520;
+} 
+
+.nav-link .link-show-b {
+    display: none;
+}
+
+.nav-link:hover .link-show-b {
+    display: inline;
+    color: #e05351;
+}
+
+.nav-link .link-show-a {
+    display: none;
+}
+
+.nav-link:hover .link-show-a {
+    display: inline;
+    color: #59d331;
+}
+
 /* -------------------- */
 
 .navbar-brand {
@@ -96,10 +132,6 @@ Edited for my own purpose */
 .custom-fa-bars{
     color: #00b906;
     font-size: 25px;
-}
-
-.position-relative {
-    position: relative;
 }
 
 /*------------------------------- Carousel */
@@ -180,8 +212,8 @@ Edited for my own purpose */
 }
 
 .title-position {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border: 0;
 }
 
