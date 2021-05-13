@@ -140,6 +140,21 @@ Edited for my own purpose */
     margin-top: 50px;
 }
 
+.btn-outline-success {
+    font-weight: bold;
+    color: #fff;
+    border-color: #fff;
+    background: #00b906;
+}
+
+.carousel-indicators {
+    margin-bottom: 0.3rem;
+}
+
+.carousel-h5 {
+    float: center;
+}
+
 /*------------------------------- Tech Section */
 .tech-feat-container {
     background-image: url("../images/teach-feat-option2.jpeg");
@@ -361,6 +376,7 @@ but edited by myself for my own purpose */
 .back-compat-container {
     background-color: #222831;
 }
+
 .overlay-title-h2-red {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
