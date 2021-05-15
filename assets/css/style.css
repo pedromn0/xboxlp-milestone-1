@@ -23,10 +23,6 @@ h2 {
     font-weight: bolder;
 }
 
-.vh-container {
-    height: 100vh;
-}
-
 /*------------------------------- Colors */
 
 .bg-black-xbox {
@@ -54,6 +50,12 @@ h2 {
 }
 
 /*------------------------------- Navbar */
+
+@media only screen and (min-width: 768px) {
+    .navbar-container {
+    height: 50px;
+    }
+}
 
 .bg-navbar-color {
     background-color: #030303;
@@ -156,6 +158,7 @@ Edited for my own purpose */
 }
 
 /*------------------------------- Tech Section */
+
 .tech-feat-container {
     background-image: url("../images/teach-feat-option2.jpeg");
     background-repeat: no-repeat;
@@ -164,14 +167,14 @@ Edited for my own purpose */
     -moz-box-shadow:    inset 0 0 10px #222831;
     -webkit-box-shadow: inset 0 0 10px #222831;
     box-shadow:         inset 0 0 10px #222831;
-    height: 100vh;
+    height: 90vh;
 }
 
 @media only screen and (max-width: 768px) {
     .tech-feat-container {
         background-image: url("../images/mobile-tech-opt2.jpg");
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: bottom;
         background-size: cover;
         -moz-box-shadow:    inset 0 0 10px #222831;
         -webkit-box-shadow: inset 0 0 10px #222831;
@@ -222,8 +225,9 @@ Edited for my own purpose */
     box-shadow:         inset 0 0 10px #0ba3e9;
 }
 
-.ghost-column {
-    margin-bottom: 25px;
+.tech-column1, .tech-column2  {
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .title-position {
