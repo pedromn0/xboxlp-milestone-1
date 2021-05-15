@@ -51,12 +51,6 @@ h2 {
 
 /*------------------------------- Navbar */
 
-@media only screen and (min-width: 768px) {
-    .navbar-container {
-    height: 50px;
-    }
-}
-
 .bg-navbar-color {
     background-color: #030303;
 }
@@ -70,7 +64,6 @@ li .nav-link span {
     margin-right: 10px;
     padding-left: 10px;
 }
-
 
 .navbar-brand:hover {
     color: #fff;
@@ -139,7 +132,7 @@ Edited for my own purpose */
 /*------------------------------- Carousel */
 
 .hero-container {
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .btn-outline-success {
@@ -167,32 +160,15 @@ Edited for my own purpose */
     -moz-box-shadow:    inset 0 0 10px #222831;
     -webkit-box-shadow: inset 0 0 10px #222831;
     box-shadow:         inset 0 0 10px #222831;
-    height: 90vh;
+    min-height: 90vh;
+    padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 768px) {
     .tech-feat-container {
-        background-image: url("../images/mobile-tech-opt2.jpg");
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: cover;
-        -moz-box-shadow:    inset 0 0 10px #222831;
-        -webkit-box-shadow: inset 0 0 10px #222831;
-        box-shadow:         inset 0 0 10px #222831;
-        height: 100%;
+        margin-top: 45px;
+        padding-top: 0;
     }
-    .bg-fade-cover {
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.95); 
-    }
-}
-
-.bg-fade-cover {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), transparent);
 }
 
 .overlay-title-h2-blue {
@@ -201,12 +177,19 @@ Edited for my own purpose */
     padding: 5px;
     margin-left: 15px;
     margin-right: 15px;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.70);
     border: 1px solid #0ba3e9;
     -moz-box-shadow:    inset 0 0 10px #0ba3e9;
     -webkit-box-shadow: inset 0 0 10px #0ba3e9;
     box-shadow:         inset 0 0 10px #0ba3e9;
-}    
+}
+
+@media only screen and (max-width: 768px) {
+    .overlay-title-h2-blue {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
 
 .card-title-h3 {
     font-weight: 600;
@@ -215,19 +198,27 @@ Edited for my own purpose */
 
 .overlay-box-blue {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.70);
     border: 1px solid #0ba3e9;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
     height: 100%;
     -moz-box-shadow:    inset 0 0 10px #0ba3e9;
     -webkit-box-shadow: inset 0 0 10px #0ba3e9;
     box-shadow:         inset 0 0 10px #0ba3e9;
 }
 
+@media only screen and (max-width: 768px) {
+    .overlay-box-blue {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
 .tech-column1, .tech-column2  {
     margin-top: 30px;
     margin-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .title-position {
@@ -271,11 +262,20 @@ Edited for my own purpose */
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.55);
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgba(0, 0, 0, 0.70);
     border: 1px solid #ded520;
     -moz-box-shadow:    inset 0 0 10px #ded520;
     -webkit-box-shadow: inset 0 0 10px #ded520;
     box-shadow:         inset 0 0 10px #ded520;
+}
+
+@media only screen and (max-width: 768px) {
+    .overlay-title-h2-yellow {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 .text-box-yellow {
@@ -285,7 +285,7 @@ Edited for my own purpose */
     margin: 25px;
     padding: 5px;
     border: 1px solid #ded520;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.70);
     -moz-box-shadow:    inset 0 0 10px #ded520;
     -webkit-box-shadow: inset 0 0 10px #ded520;
     box-shadow:         inset 0 0 10px #ded520;
@@ -303,7 +303,7 @@ Edited for my own purpose */
 
 .video-box-yellow {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.70);
     border: 1px solid #ded520;
     padding: 60px 10px 0px 10px;
     -moz-box-shadow:    inset 0 0 10px #ded520;
@@ -337,7 +337,6 @@ but edited by myself for my own purpose */
     background-size: cover;
     width: 100%;
     margin-top: 50px;
-    /* padding-top: 15px; */
     height: 350px;
 }
 
@@ -371,8 +370,8 @@ but edited by myself for my own purpose */
         width: 100%;
         height: 100%;
         position: relative;
-        background: linear-gradient(0deg, rgba(27, 31, 58, 0.25), transparent),
-                    linear-gradient(180deg, rgba(27, 31, 58, 0.65), transparent);  
+        background: 
+        linear-gradient(0deg, rgba(27, 31, 58, 0.25), transparent),            linear-gradient(180deg, rgba(27, 31, 58, 0.65), transparent);  
     }
 }
 
@@ -385,11 +384,25 @@ but edited by myself for my own purpose */
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.55);
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgba(0, 0, 0, 0.70);
     border: 1px solid #e05351;
     -moz-box-shadow:    inset 0 0 10px #e05351;
     -webkit-box-shadow: inset 0 0 10px #e05351;
     box-shadow:         inset 0 0 10px #e05351;
+}
+
+@media only screen and (max-width: 768px) {
+    .overlay-title-h2-red {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+.bkc-image {
+    width: 100%;
+    height: 100% auto;
 }
 
 .text-box-red {
@@ -399,19 +412,35 @@ but edited by myself for my own purpose */
     margin: 25px;
     padding: 5px;
     border: 1px solid #e05351;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.70);
     -moz-box-shadow:    inset 0 0 10px #e05351;
     -webkit-box-shadow: inset 0 0 10px #e05351;
     box-shadow:         inset 0 0 10px #e05351;
 }
 
+@media only screen and (max-width: 768px) {
+    .text-box-red {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
 .overlay-box-red {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.70);
+    margin-right: 25px;
+    margin-left: 25px;
     border: 1px solid #e05351;
     -moz-box-shadow:    inset 0 0 10px #e05351;
     -webkit-box-shadow: inset 0 0 10px #e05351;
     box-shadow:         inset 0 0 10px #e05351;
+}
+
+@media only screen and (max-width: 768px) {
+    .overlay-box-red {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 /*------------------------------- Footer*/

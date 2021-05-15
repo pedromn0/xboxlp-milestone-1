@@ -64,7 +64,7 @@
     </header>
     
     <!-- Hero from Bootstrap-->
-    <div class="container-fluid hero-container">
+    <div class="container-fluid hero-container d-none d-md-block">
         <div class="row">
             <div class="col g-0">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -112,12 +112,13 @@
             </div>    
         </div>    
     </div>
+
     <!-- Tech Section -->
     <div class="container-fluid tech-feat-container">
         <div class="bg-fade-cover">
             <section id="tech-feat">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center g-0">
+                    <div class="col-12 d-flex justify-content-center mt-1 g-0">
                         <article class="title-position">
                             <h2 class="overlay-title-h2-blue tex-center text-uppercase">Welcome to your next powerhouse console</h2>
                         </article>
@@ -145,17 +146,19 @@
                 </div>
             </section>
         </div>    
-    </div>  
+    </div>
+
+    <!-- Games Section -->
     <div class="container-fluid games-container">
         <div class="row">
             <section id="games">
-                <div class="col-12 d-flex justify-content-center">
+                <div class="col-12 d-flex justify-content-center mt-2">
                     <article class="title-position">
-                        <h2 class="overlay-title-h2-yellow tex-center text-uppercase">Choose what and where do you want to play</h2>
+                        <h2 class="overlay-title-h2-yellow tex-center text-uppercase">Which game and where do you want to play</h2>
                     </article>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 justify-content-center">
+                    <div class="col-12 col-md-6 justify-content-center mt-3">
                         <h3 class="card-title-h3 text-center">Know Gamepass</h3>
                         <div class="video-responsive-wrapper text-center video-box-yellow mt-3">
                             <iframe id="player1" width="560" height="315" src="https://www.youtube.com/embed/cU1jOKJNfAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -175,7 +178,7 @@
                             </div>
                         </div>                    
                     </div>
-                    <div class="col-12 col-md-6 justify-content-center">
+                    <div class="col-12 col-md-6 justify-content-center mt-3">
                         <h3 class="card-title-h3 text-center">Have a taste of Xbox Games</h3>
                         <div class="video-responsive-wrapper text-center video-box-yellow mt-3">
                             <iframe id="player2" width="560" height="315" src="https://www.youtube.com/embed/YJ_rg69LdVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -208,29 +211,29 @@
         </div>    
     </div>   
     <!-- Back Compatibility -->
-    <section id="back-compat">
-        <div class="container-fluid back-compat-container">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
+    <div class="container-fluid back-compat-container">
+        <div class="row">                
+            <section id="back-compat">
+                <div class="col-12 d-flex justify-content-center mt-2">
                     <article class="title-position">
-                        <h2 class="overlay-title-h2-red tex-center text-uppercase">The best place to play all generations in one machine</h2>
+                        <h2 class="overlay-title-h2-red tex-center text-uppercase">Enjoy your Xbox favourite games of all time</h2>
                     </article>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 justify-content-center">
-                        <h3 class="card-title-h3 text-center">Know Gamepass</h3>
-                        <div class="video-responsive-wrapper text-center overlay-box-red mt-3">
-                            <img src="assets/images/back-compat-opt4.jpeg" alt="">
+                    <div class="col-12 col-md-6 justify-content-center mt-3">
+                        <h3 class="card-title-h3 text-center">All Xbox in one<h3>
+                        <div class="overlay-box-red text-center mt-3">
+                            <img class="bkc-image" src="/assets/images/back-compat-opt5.jpeg" alt="Xbox Series X and Back Compat games">
                         </div>
                         <div class="text-box-red">
                             <p>Xbox Series X is an a machine capable to run all the Xbox console in just one.</p>
                             <p>It is not just run with all the power the Xbox Series X can enhace your games in an exclusive way.</p>
                         </div>                
                     </div>
-                    <div class="col-12 col-md-6 justify-content-center">
-                        <h3 class="card-title-h3 text-center">Have a taste of Xbox Games</h3>
-                        <div class="video-responsive-wrapper text-center overlay-box-red mt-3">
-                            <iframe id="player2" width="560" height="315" src="https://www.youtube.com/embed/YJ_rg69LdVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="col-12 col-md-6 justify-content-center mt-3">
+                        <h3 class="card-title-h3 text-center">Play Enhanced</h3>
+                        <div class="overlay-box-red text-center">
+                            <img class="bkc-image" src="/assets/images/fps-boost.jpeg" alt="FPS boost feature">
                         </div>
                         <div class="text-box-red">
                             <h3>Exclusive Xbox Enhaces</h3>
@@ -242,10 +245,10 @@
                             </ul>
                         </div>  
                     </div>
-                </div>
-            </div>    
-        </div>
-    </section>
+                </div>    
+            </section>
+        </div>    
+    </div>
     <!-- Footer -->
     <footer>
         <div class="container-fluid footer-container">
