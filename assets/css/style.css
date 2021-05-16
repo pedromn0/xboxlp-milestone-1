@@ -83,7 +83,6 @@ Edited for my own purpose */
 .nav-link:hover .link-show-x {
     display: inline;
     color: #0ba3e9;
-    transition: 1s;
 }
 
 .nav-link .link-show-y {
@@ -216,7 +215,7 @@ Edited for my own purpose */
 }
 
 .tech-column1, .tech-column2  {
-    margin-top: 30px;
+    margin-top: 130px;
     margin-bottom: 10px;
     padding-bottom: 15px;
 }
@@ -290,6 +289,10 @@ Edited for my own purpose */
     box-shadow:         inset 0 0 10px #ded520;
 }
 
+.text-box-yellow h4 {
+    text-align: center;
+}
+
 .gamepass-feat-list {
     position: absolute;
     list-style-type: square;
@@ -337,6 +340,21 @@ but edited by myself for my own purpose */
     width: 100%;
     margin-top: 50px;
     height: 350px;
+}
+
+.bethesda-link {
+    text-decoration: none;
+    color: #fff;   
+}
+
+.bethesda-link h2{
+    transition: 0.8s ease-in-out;
+}
+
+.bethesda-link h2:hover {
+    color: #ded520;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .bethesda-highlights {
@@ -416,6 +434,14 @@ but edited by myself for my own purpose */
     -webkit-box-shadow: inset 0 0 10px #e05351;
     box-shadow:         inset 0 0 10px #e05351;
 }
+
+.text-box-red h4 {
+    text-align: center;
+}
+
+.text-box-red p {
+    font-size: medium;
+}
 
 @media only screen and (max-width: 768px) {
     .text-box-red {
