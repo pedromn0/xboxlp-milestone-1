@@ -166,7 +166,7 @@ Edited for my own purpose */
 
 @media only screen and (max-width: 768px) {
     .tech-feat-container {
-        margin-top: 45px;
+        margin-top: 55px;
         padding-top: 0;
     }
 }
@@ -193,7 +193,7 @@ Edited for my own purpose */
 
 .card-title-h3 {
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .overlay-box-blue {
@@ -223,7 +223,6 @@ Edited for my own purpose */
 
 .title-position {
     margin-top: 25px;
-    margin-bottom: 25px;
     border: 0;
 }
 
