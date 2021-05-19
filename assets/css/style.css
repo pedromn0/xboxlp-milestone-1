@@ -130,7 +130,7 @@ Edited for my own purpose */
 
 /*------------------------------- Carousel */
 
-.hero-container {
+.carousel-container {
     margin-top: 5px;
 }
 
@@ -143,6 +143,16 @@ Edited for my own purpose */
 
 .carousel-indicators {
     margin-bottom: 0.3rem;
+}
+
+.callout-h3-caurosel {
+    font-weight: 900;
+    color: #fff;
+    text-shadow: #00b906;
+}
+
+.carousel-link {
+    text-decoration: none;
 }
 
 .carousel-h5 {
@@ -161,6 +171,11 @@ Edited for my own purpose */
     box-shadow:         inset 0 0 10px #222831;
     min-height: 90vh;
     padding-bottom: 40px;
+}
+
+.tech-section-vertical-align {
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -281,6 +296,10 @@ Edited for my own purpose */
     -moz-box-shadow:    inset 0 0 10px #222831;
     -webkit-box-shadow: inset 0 0 10px #222831;
     box-shadow:         inset 0 0 10px #222831;
+}
+
+.games-section-vertical-align {
+    padding-top: 30px;
 }
 
 .overlay-title-h2-yellow {
@@ -422,6 +441,11 @@ but edited by myself for my own purpose */
 /*------------------------------- Backwards Compatibility Section*/
 .back-compat-container {
     background-color: #222831;
+}
+
+.back-section-vertical-align {
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .overlay-title-h2-red {
