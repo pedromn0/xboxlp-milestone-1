@@ -348,7 +348,7 @@ Edited for my own purpose */
     overflow: hidden;
     height: 250px;
     margin: 25px;
-    padding: 5px;
+    padding:5px;
     border: 1px solid #ded520;
     background-color: rgba(0, 0, 0, 0.70);
     -moz-box-shadow:    inset 0 0 10px #ded520;
@@ -356,9 +356,34 @@ Edited for my own purpose */
     box-shadow:         inset 0 0 10px #ded520;
 }
 
-@media (max-width:936px) and (min-width:767px) {
+@media (max-width:1116px) and (min-width:933px) {
+    .text-box-yellow {
+        height: 315px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:932px) and (min-width:767px) {
     .text-box-yellow {
         height: 350px;
+        padding-top: 8px;
+    }
+}
+
+@media (max-width: 576px) and (min-width:400px) {
+    .text-box-yellow {
+        height: 370px;
+    }
+    .gamepass-feat-list {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+     .text-box-yellow {
+        height: 370px;
+    }
+    .gamepass-feat-list {
         padding-top: 8px;
     }
 }
@@ -560,12 +585,13 @@ but edited by myself for my own purpose */
 
 @media only screen and (max-width: 468px) {
     .text-box-red {
-        height: 300px;
+        height: 320px;
     }
 }
 
 .card-h4 {
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -643,6 +669,26 @@ but edited by myself for my own purpose */
     margin: 0;
 }
 
+.brand-box {
+    position: absolute;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.footer-brand {
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.footer-brand:hover {
+    color: #00b906;
+}
+
 .social-icons {
     padding: 10px;
     margin-right: 25px;
@@ -663,7 +709,5 @@ but edited by myself for my own purpose */
 }
 
 .social-icons li a i:hover {
-    font-size: 27px;
-    margin: 0.2rem;
     color: #00b906;
 }
