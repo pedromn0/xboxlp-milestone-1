@@ -2,10 +2,40 @@
 
 The idea of this project is to practice the knowledge learned so far about the first modules of the Code Institue software developement course.
 
-The project itself consists of a Landing Page for the Xbox Series X, Microsoft's new video game console, with a focus on concentrating the main features of the console, but more than that sharing the message about the ecosystem around the console that whoever buys the console will have.
+The project itself consists of a Landing Page for the Xbox Series X, Microsoft's new video game console, with a focus on concentrating the main features of the console, but more than that sharing the message about the ecosystem around the console for whoever will be interested in buy the console.
  
 ## UX
- 
+
+The UX was idealized to connect the visual of the console, some elements of the brand but at same point feel transparency and straightforward about the key advantages and main capabilities of the ecosystem.
+
+The aspects to be built in the project were created based on the user stories above:
+
+External user’s goal:
+
+Understand what is the value proposition of buying an Xbox series X. 
+What games will be possible to play in this machine.
+How well the games is going to run and in terms of graphic and performance.
+The price and link to buy if needed and images and videos. 
+
+---------------------------------------------------------------------------
+
+Site owner's goal:
+
+Deliver a message stating the advantages of being a player on the Xbox platform. Draw the attention of current users on older Xbox consoles, non gamers and users of another platforms as Nintendo or Playstation.
+The main ideia is convert them into consumers of the new Xbox product and services.
+
+---------------------------------------------------------------------------
+
+These stories resulted in the potential features to include:
+a) Sliding carousel showcasing the main sections;  
+b) Section with main tech features.
+c) Section dedicated to advertise  Gamepass subscription and main games available to play;
+d) Backwards compatibility system;
+
+In result of this the wireframes were design to achive the main features dividing the land page in three sections and one carousel to stand out the main message.
+
+![Wireframes](assets/wireframe/desktop_landing_page.png)
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
