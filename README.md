@@ -1,6 +1,10 @@
-# First Milestone Project (Code Institue) - Xbox Series X Landing Page
+# Xbox Series X Landing Page
 
-The idea of this project is to practice the knowledge learned so far about the first modules of the Code Institue software developement course.
+## Introduction
+
+The idea of this project is to practice the knowledge learned so far about the first modules of the Code Institue software developement course. 
+
+This project was developed as a requirement of the course and it is classified as the first milestone project with the subject defined as User Centric Frontend Development.  
 
 The project itself consists of a Landing Page for the Xbox Series X, Microsoft's new video game console, with a focus on concentrating the main features of the console, but more than that sharing the message about the ecosystem around the console for whoever will be interested in buy the console.
  
@@ -8,33 +12,40 @@ The project itself consists of a Landing Page for the Xbox Series X, Microsoft's
 
 The UX was idealized to connect the visual of the console, some elements of the brand but at same point feel transparency and straightforward about the key advantages and main capabilities of the ecosystem.
 
-The aspects to be built in the project were created based on the user stories above:
+To help understand which elements would be interesting use to build the website some aspects regarding the strategy about the brand and console were considered as for example:
+* Why are we special?
+* Why would a user want this?
+* Who else is doing this?
+* What are the pros of what they're doing, and what are the cons?
 
-External user’s goal:
+After analyze the competitors (Nintendo and Playstation) was possible to sumarising what makes the Xbox different from those with the topics below:
+
+- Xbox Series X is the most advanced console created in terms of processing power. 
+- The Xbox deliveries an affordable game subscription which allows you to install up to 200 and this library receive contstant updates every month with new games.
+- Xbox has the best backwards compatibility system to play old games with exclusive features.
+- It is the only platform that allows you to play the same game in your console,PC or mobile utilising the same save. 
+
+Embeded with those ideas the next step was create the user stories.
+
+### External user’s goal:
 
 Understand what is the value proposition of buying an Xbox series X. 
 What games will be possible to play in this machine.
 How well the games is going to run and in terms of graphic and performance.
 The price and link to buy if needed and images and videos. 
 
----------------------------------------------------------------------------
-
-Site owner's goal:
+### Site owner's goal:
 
 Deliver a message stating the advantages of being a player on the Xbox platform. Draw the attention of current users on older Xbox consoles, non gamers and users of another platforms as Nintendo or Playstation.
 The main ideia is convert them into consumers of the new Xbox product and services.
 
----------------------------------------------------------------------------
+### Wireframe
 
-These stories resulted in the potential features to include:
-a) Sliding carousel showcasing the main sections;  
-b) Section with main tech features.
-c) Section dedicated to advertise  Gamepass subscription and main games available to play;
-d) Backwards compatibility system;
+In result of the analizis of the elements of the brand, product and competitors the wireframes were design with the ideia on minde to achive the main key differentials dividing the land page in three sections and one carousel to stand out the main message.
 
-In result of this the wireframes were design to achive the main features dividing the land page in three sections and one carousel to stand out the main message.
+![Wireframes](assets/wireframe/Wireframes4.png)
 
-![Wireframes](assets/wireframe/desktop_landing_page.png)
+[Link to access individually the wireframes](https://github.com/pedromn0/xboxlp-milestone-1/tree/master/assets/wireframe)
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -45,18 +56,39 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The project was conceptualised to be straightforward utilising the main differentials of product to communicate the message across 4 main section as is possible to understand below:
  
+1. Navbar;
+
+2. Sliding carousel showcasing the main sections;
+    
+3. Section with main tech features;
+
+4. Section dedicated to advertise Gamepass subscription and main games available to play;
+
+5. Backwards compatibility system;
+
+6. Footer.
+    
+
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+
+- The **Sliding Carousel** has the approach to stand out the main ideas with key images which works as link leading the users to a better understanding about what the user what to know more.
+
+ - The **Tech Features Section** was developed to just reassure the powerful capabilities of the console itself and clarity what is possible to expect in the technologic point of view.
+
+ - In **Games Section** is where relays the opportuny for Xbox showcase the platform as something more than just exclusive games or a single piece of hardware. This section were developed to explain for the future user what they advantages to be Xbox user’s and what are the different ways to be one. The best way to materialise assertively were throughout videos and brief description of them.
+
+ - The **Backwards Compatibility** is the main unique approach of the brand and for this reason was choose to pass the idea of continuity that every user have accros different generations but keeping what the already have as a consumers of the brand and even better keep being able to playing games from previous genrations but in a better and unique way. In this section the tech capabilities were explored.
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Gallery on grid format to ilustrate some images of the new console.
 
 ## Technologies Used
 
