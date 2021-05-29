@@ -66,7 +66,7 @@ The project was conceptualised to be straightforward utilising the main differen
 
 4. Section dedicated to advertise Gamepass subscription and main games available to play;
 
-5. Backwards compatibility system;
+5. Section to explain backwards compatibility system;
 
 6. Footer.
     
@@ -107,11 +107,24 @@ The gallery was not possible to implement due to lack of time.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+All the Technologies utilised to built this landing page can be found bellow with the respective links.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+### Languages
+- [HTML](https://en.wikipedia.org/wiki/HTML) to build the whole structure of the landing page.
+- [CSS](https://en.wikipedia.org/wiki/CSS) to style all the webiste.
 
+### Frameworks and others
+
+- [Gitpod](https://www.gitpod.io/) as the code editor.
+- [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) to buil carousel, navbar and use the grid system to better position all elements of the landing page.
+- [Google Fonts](https://fonts.google.com/) for both fonts utilised in the project.
+- [Font Awesome](https://fontawesome.com/) for the all icons.
+- [Git](https://git-scm.com/) was used as tool to control the version of the project.
+- [Git Hub](https://github.com/) to store the project with versionament control
+- [Github pages](https://pages.github.com/) to deploy the live project.
+- [Balsamiq](https://balsamiq.com/) to wireframe the ideia of the website.
+- [Am I responsive](http://ami.responsivedesign.is/#) to help visualize the webiste in different screens sizes and get a print of it.
+- [Sketch](https://www.sketch.com/) help to create images or even resize them.
 
 ## Testing
 
