@@ -124,7 +124,7 @@ All the Technologies utilised to built this landing page can be found bellow wit
 - [Github pages](https://pages.github.com/) to deploy the live project.
 - [Balsamiq](https://balsamiq.com/) to wireframe the ideia of the website.
 - [Am I responsive](http://ami.responsivedesign.is/#) to help visualize the webiste in different screens sizes and get a print of it.
-- [Sketch](https://www.sketch.com/) help to create images or even resize them.
+- [Sketch](https://www.sketch.com/) helped to create images or even resize them.
 
 ## Testing
 
