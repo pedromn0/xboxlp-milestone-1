@@ -128,11 +128,20 @@ All the Technologies utilised to built this landing page can be found bellow wit
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The tests utilised were Google Lighthouse, W3C Html and CSS validator.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+All the possible erros founded by W3C validators were corrected less the one being part of bootstrap Frameworks.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+The only erro in the HTML not corrected were those three:
+![w3c html validator](assets/validators/w3c_html.png)
+
+Two of them regarding the youtube Embeded videos and one that was not possibleto correct at time.
+
+The CSS validators showed no error:
+![w3c css validator](assets/validators/w3c_css.png)
+
+Google ligthouse results:
+![Ligthouse](assets/validators/google_ligthouse.png)
 
 1. Contact form:
     1. Go to the "Contact Us" page
