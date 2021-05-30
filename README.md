@@ -45,14 +45,8 @@ In result of the analizis of the elements of the brand, product and competitors 
 
 ![Wireframes](assets/wireframe/Wireframes4.png)
 
-[Link to access individually the wireframes](https://github.com/pedromn0/xboxlp-milestone-1/tree/master/assets/wireframe)
+[Link to access individually each wireframes](https://github.com/pedromn0/xboxlp-milestone-1/tree/master/assets/wireframe)
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
@@ -165,17 +159,51 @@ For deploy this project I utilised some of the mentioned technologies above to f
 9. After that I clicked on the button **save**.
 10. Finally after those steps the link of the webiste was ready to be utilised and the project is live.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+All texts were created by myself as my best effort to reproduce this type of content as faithfully as possible.
 
 ### Media
-- The photos used in this site were obtained from ...
+
+#### Images and Videos
+
+All images used in this project were credited in those links with their names in the project and orignal sources. It is important the mention that all images were resized and some of them edited to match project objectives.
+
+##### A. Carousel Pictures
+- [carousel-1.jpg](https://images.wallpapersden.com/image/download/xbox-series-x_bGVnbmmUmZqaraWkpJRobWllrWdma2U.jpg)
+
+- [carousel-2-best.jpg](https://www.windowscentral.com/xbox-series-x-gallery)
+
+- [carousel-3-best.jpg](https://www.techradar.com/best/best-xbox-game-pass-games)
+
+- [carousel-4-best.jpg](https://news.xbox.com/en-us/2020/10/13/xbox-series-x-and-xbox-series-s-backward-compatibility-update/)
+
+##### B. Tech Section
+- [tech-section-bg-best.jpg](https://www.renderhub.com/dinapixstudio/xbox-series-x-3d-wallpaper)
+
+##### C. Games Section
+
+Pictures
+
+- [bethesda-pc-best.jpg](https://news.xbox.com/en-us/2020/09/21/welcoming-bethesda-to-the-xbox-family/)
+
+- [mobile-xbox-bethesda.jpeg](https://as.com/meristation/2020/09/22/noticias/1600773784_590343.html)
+
+Videos
+
+- [Gamepass Video](https://www.youtube.com/watch?v=cU1jOKJNfAw&list=PL4LVoF5vIdNk2mK7iLnD_lsPZHc7LVLxe&index=2&t=12s)
+
+- [Xbox Games showcase](https://www.youtube.com/watch?v=YJ_rg69LdVU&t=6s)
+
+
+##### D. Backwards Compatibility
+
+- [XboxSX-backcomp-best.jpg](https://www.purexbox.com/news/2021/02/feature_games_wed_love_to_see_added_to_xbox_backwards_compatibility_in_2021)
+
+- [fps-boost-best.jpg](https://news.xbox.com/en-us/2021/03/15/five-legendary-bethesda-titles-get-fps-boost/)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from the official website of [Microsoft Xbox Series X](https://www.xbox.com/en-US/consoles/xbox-series-x)
