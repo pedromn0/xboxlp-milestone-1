@@ -135,7 +135,8 @@ All the possible erros founded by W3C validators were corrected less the one bei
 The only erro in the HTML not corrected were those three:
 ![w3c html validator](assets/validators/w3c_html.png)
 
-Two of them regarding the youtube Embeded videos and one that was not possibleto correct at time.
+- For the first error I utilised an h2 tag for the section, but that was not considered by the validator.
+- The other two erros are regarding the youtube embeded videos link copied directly by youtube.
 
 The CSS validators showed no error:
 ![w3c css validator](assets/validators/w3c_css.png)
@@ -143,26 +144,26 @@ The CSS validators showed no error:
 Google ligthouse results:
 ![Ligthouse](assets/validators/google_ligthouse.png)
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+All images were replaced with smaller sizes in an attempt to improve performance, but it was not possible to replace them with the format indicated by google Lighthouse because they are not widely accepted by major browsers.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Responsiveness
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+This project was developed to work in at least 3 different sizes Desktop, mobile and Tablet. For that reason the site has been tested on several possible devices, from 11 "or 13" inch Macs, variable Android phones available to me as well as to some friends and relatives.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+For deploy this project I utilised some of the mentioned technologies above to facilated this process.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+1. The first step were created a repository on GitHub with the name **xboxlp-milestone-1**
+2. Installed the **Gitpod** extension for **Google Chrome**;
+3. Linked **Gitpod** gaving **access** to my **GitHub profile** with my login and password;
+4. After that all repositories started to showed the **Gitpod button** just next to the button Code.
+5. Clicking in the **Gitpod button** you have access to the code editor linked with this repository.
+6. After editing the code it was possibble utilising **Git command** (status, add, commit and push) in the **terminal** updated Github repository.
+7. To deploy was necessary went to repository settings and scrolled down untill the options Github pages **check it out here!**
+8. In the link it was necessary went to option **source** and selected the main branch
+9. After that I clicked on the button **save**.
+10. Finally after those steps the link of the webiste was ready to be utilised and the project is live.
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
