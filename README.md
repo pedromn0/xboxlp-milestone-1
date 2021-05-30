@@ -1,5 +1,9 @@
 # Xbox Series X Landing Page
 
+![Mockup](assets/mockup/mockup.png)
+
+[Live project link](https://pedromn0.github.io/xboxlp-milestone-1/)
+
 ## Introduction
 
 The idea of this project is to practice the knowledge learned so far about the first modules of the Code Institue software developement course. 
