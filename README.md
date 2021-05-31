@@ -130,17 +130,17 @@ The tests utilised were Google Lighthouse, W3C Html and CSS validator.
 
 All the possible erros founded by W3C validators were corrected less the one being part of bootstrap Frameworks.
 
-The only erro in the HTML not corrected were those three:
+The only errors in the HTML not corrected were those three:
 ![w3c html validator](assets/validators/w3c_html.png)
 
 - For the first error I utilised an h2 tag for the section, but that was not considered by the validator.
-- The other two erros are regarding the youtube embeded videos link copied directly by youtube.
+- The other two errors are regarding the youtube embeded videos link copied directly from youtube.
 
 The CSS validators showed no error:
 ![w3c css validator](assets/validators/w3c_css.png)
 
 Google ligthouse results:
-![Ligthouse](assets/validators/google_ligthouse.png)
+![Ligthouse](assets/validators/google_lighthouse.png)
 
 All images were replaced with smaller sizes in an attempt to improve performance, but it was not possible to replace them with the format indicated by google Lighthouse because they are not widely accepted by major browsers.
 
