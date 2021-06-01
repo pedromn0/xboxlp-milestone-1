@@ -126,27 +126,26 @@ All the Technologies utilised to built this landing page can be found bellow wit
 
 ## Testing
 
-The tests utilised were Google Lighthouse, W3C Html and CSS validator.
+The tests utilised were [Google Lighthouse](https://developers.google.com/web/tools/lighthouse), [W3C Markup validation service](https://validator.w3.org/) and [w3c Jigsaw CSS validation service](https://jigsaw.w3.org/css-validator/).
 
-All the possible erros founded by W3C validators were corrected less the one being part of bootstrap Frameworks.
+All the possible erros founded by W3C validators were corrected less those ones being part of bootstrap Frameworks.
 
-The only errors in the HTML not corrected were those three:
+There is only I warning regarding HTML as it is possibble to see with the screenshot:
 ![w3c html validator](assets/validators/w3c_html.png)
 
-- For the first error I utilised an h2 tag for the section, but that was not considered by the validator.
-- The other two errors are regarding the youtube embeded videos link copied directly from youtube.
+- The warning notice is a recommendation to use the h2 tag for the section in question. I use the h2 tag, but inside an article tag, so it is not being considered by the validator.
 
-The CSS validators showed no error:
+The CSS validators showed no errors:
 ![w3c css validator](assets/validators/w3c_css.png)
 
 Google ligthouse results:
 ![Ligthouse](assets/validators/google_lighthouse.png)
 
-All images were replaced with smaller sizes in an attempt to improve performance, but it was not possible to replace them with the format indicated by google Lighthouse because they are not widely accepted by major browsers.
+All images were replaced with smaller sizes in an attempt to improve performance.
 
 ### Responsiveness
 
-This project was developed to work in at least 3 different sizes Desktop, mobile and Tablet. For that reason the site has been tested on several possible devices, from 11 "or 13" inch Macs, variable Android phones available to me as well as to some friends and relatives.
+This project was developed to work in at least 3 different sizes Desktop, mobile and Tablet. To achive this the website has been tested on several possible devices, from 11 "or 13" inch Macs, Google Chrome developer tools, variable Android phones available to me as well as to some friends and relatives.
 
 ## Deployment
 
@@ -173,7 +172,7 @@ All texts were created by myself as my best effort to reproduce this type of con
 
 #### Images and Videos
 
-All images used in this project were credited in those links with their names in the project and orignal sources. It is important the mention that all images were resized and some of them edited to match project objectives.
+All images used in this project are credited in links below with their names in the project and orignal sources. It is important the mention that all images were resized and some of them edited to match project objectives.
 
 ##### A. Carousel Pictures
 - [carousel-1.jpg](https://images.wallpapersden.com/image/download/xbox-series-x_bGVnbmmUmZqaraWkpJRobWllrWdma2U.jpg)
@@ -210,4 +209,4 @@ Videos
 
 ### Acknowledgements
 
-- I received inspiration for this project from the official website of [Microsoft Xbox Series X](https://www.xbox.com/en-US/consoles/xbox-series-x)
+- I received inspiration for this project from the official website of [Microsoft Xbox Series X](https://www.xbox.com/en-US/consoles/xbox-series-x).
