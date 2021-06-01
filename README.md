@@ -6,11 +6,11 @@
 
 ## Introduction
 
-The idea of this project is to practice the knowledge learned so far about the first modules of the Code Institue software developement course. 
+The idea of this project is to practice the knowledge learned so far about the first modules of the Code Institue software development course.
 
-This project was developed as a requirement of the course and it is classified as the first milestone project with the subject defined as User Centric Frontend Development.  
+This project was developed as a requirement of the course and is classified as the first milestone project with the discipline defined as User Centric Frontend Development.
 
-The project itself consists of a Landing Page for the Xbox Series X, Microsoft's new video game console, with a focus on concentrating the main features of the console, but more than that sharing the message about the ecosystem around the console for whoever will be interested in buy the console.
+The project itself consists of a Landing Page for the Xbox Series X, Microsoft's new video game console, focused on concentrating the main features of the console, but more than that sharing the message about the ecosystem around the console for anyone interested in buying the console.
  
 ## UX
 
@@ -33,19 +33,20 @@ Embeded with those ideas the next step was create the user stories.
 
 ### External user’s goal:
 
-Understand what is the value proposition of buying an Xbox series X. 
-What games will be possible to play in this machine.
-How well the games is going to run and in terms of graphic and performance.
-The price and link to buy if needed and images and videos. 
+- Understand what is the value proposition of buying an Xbox series X. 
+- What games will be possible to play in this machine.
+- How well the games is going to run and in terms of graphic and performance.
+- The price and link to buy it if needed and images and videos. 
 
 ### Site owner's goal:
 
-Deliver a message stating the advantages of being a player on the Xbox platform. Draw the attention of current users on older Xbox consoles, non gamers and users of another platforms as Nintendo or Playstation.
-The main ideia is convert them into consumers of the new Xbox product and services.
+- Deliver a message stating the advantages of being a player on the Xbox platform. 
+- Draw the attention of current users on older Xbox consoles, non gamers and users of another platforms as Nintendo or Playstation.
+- The main ideia is convert them into consumers of the new Xbox product and services.
 
 ### Wireframe
 
-In result of the analizis of the elements of the brand, product and competitors the wireframes were design with the ideia on minde to achive the main key differentials dividing the land page in three sections and one carousel to stand out the main message.
+In result of the analizis of the elements of the brand, product and competitors the wireframes were design with the ideia on mind to achive the main key differentials dividing the landing page in three sections and one carousel to stand out the main message.
 
 ![Wireframes](assets/wireframe/Wireframes4.png)
 
@@ -54,7 +55,7 @@ In result of the analizis of the elements of the brand, product and competitors 
 
 ## Features
 
-The project was conceptualised to be straightforward utilising the main differentials of product to communicate the message across 4 main section as is possible to understand below:
+The project was conceptualised to be straightforward utilising the main differentials of product to communicate the message across 3 main section as is possible to understand below:
  
 1. Navbar;
 
@@ -70,19 +71,22 @@ The project was conceptualised to be straightforward utilising the main differen
     
 ### Existing Features
 
+#### Navbar
 - The **Navbar** utilized came from bootstrap and was heavily eddited in the visual to match the visual identity of the project. In this feature is possibleto find the links for the main section. 
-    - After hovering the mouse over each links, their apparence changes it for a combination of "Press (X, Y, B, or A)" to match the color scheme of the respective section to be selected and at same time combine the visual aspects buttons on a Xbox controller.
+    - After hovering the mouse over each links, their apparence changes it for a combination of "Press (X, Y, B, or A)" to match the color scheme of the respective section to be selected and at same time combine the visual aspects of the buttons on an Xbox controller.
 
+#### Carousel
 - The **Sliding Carousel** has the approach to stand out the main ideas with key images which works as link leading the users to a better understanding about what the user what to know more.
-    - First image to draw attention to a button with a link to buy the console
-    - 3 images works as big clickcalbe links to led to each section.
-
+    - The first image of the three is to draw attention to a button with a link to buy the console.
+    - The other three images function as large clickable links that lead to each section.
+#### Tech Features Section
  - The **Tech Features Section** was developed to reassure the powerful capabilities of the console itself bringing clarity about what is possible to expect of the technologic point of view.
-    - Background image of the console to stand out visually this section with a ghost column in the middle to always keep the console visible even in different screens sizes less in mobiles ones.
+    - Background image of the console to stand out visually this section with a ghost column in the middle to always keep the background with console visible even in different screens sizes less in mobiles ones.
     - The color blue was choose to identify this section. 
     - Title utilising the same visual identity of the overlay-box to spread the main message of the section.
     - The message is organised in topics insie a main visual style common to all sections of the project the **overlay-box** which in this case match the blue of this section.
 
+#### Games Section
  - In **Games Section** is where relays the opportuny for Xbox showcase the platform as something more than just exclusive games or a single piece of hardware. This section were developed to explain for the future user what they advantages to be Xbox user’s and what are the different ways to be one. The best way to materialise assertively were throughout videos and brief description of them.
     - The color yellow was choose to identify this section. 
     - Title utilising the same visual identity of the overlay-box to spread the main message of the section.
@@ -90,13 +94,15 @@ The project was conceptualised to be straightforward utilising the main differen
     - Two text-boxes yellow wrapping the brief description of each video.
     - After both videos an small background image covered in shades of the same bakground color of the section to pass continuity and over it a link to Xbox wire blog where it is explaining the aquisition of Bethesda studios.
 
+#### Backwards Compatibility Section
  - The **Backwards Compatibility** is the main unique approach of the brand and for this reason was choose to pass the idea of continuity that every user have accros different generations but keeping what the already have as a consumers of the brand and even better keep being able to playing games from previous genrations but in a better and unique way. In this section the tech capabilities were explored.
     - The color red was choose to identify this section. 
     - Title utilising the same visual identity of the overlay-box to spread the main message of the section.
     - Two illustrative images to represent each part of this section.
     - Two text-boxes wrapped on **overlay-box**  in the color red with message about Backwards compatibility system.
 
-- **Footer** with social links and a link to website home.
+#### Footer
+- **Footer** was developed to match the main visual aspects of the website and provide a link to website home and social links of the Xbox brand.
 
 ### Features Left to Implement
 
